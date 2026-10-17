@@ -1,0 +1,282 @@
+
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Organisasi & UKM | RuangKampus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav">
+
+            <a class="brand" href="index.html">
+                ruang<b>kampus</b>
+            </a>
+
+            <nav class="navlinks">
+                <a href="index.html">Beranda</a>
+                <a href="organisasi.html">Organisasi & UKM</a>
+                <a href="detail.html?org=protic">Detail Profil</a>
+                <a href="kegiatan.html">Kegiatan</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <section class="pagehero">
+        <div class="container">
+
+            <div class="tag">
+                DIREKTORI KEMAHASISWAAN
+            </div>
+
+            <h1>
+                Organisasi & UKM
+                <span>kampus.</span>
+            </h1>
+
+            <p class="lead">
+                Cari profil organisasi, bidang, dan aktivitas
+                komunitas mahasiswa.
+            </p>
+
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+
+            <div class="toolbar">
+
+                <div>
+                    <div class="kicker">
+                        DIREKTORI
+                    </div>
+
+                    <h2>Daftar organisasi</h2>
+
+                    <p class="muted" id="count">
+                        Menampilkan semua contoh organisasi
+                    </p>
+                </div>
+
+                <input
+                    class="search"
+                    id="search"
+                    placeholder="Cari nama atau bidang..."
+                >
+
+            </div>
+
+
+            <div class="filters">
+
+                <button class="chip active" data-cat="Semua">
+                    Semua
+                </button>
+
+                <button class="chip" data-cat="Teknologi">
+                    Teknologi
+                </button>
+
+                <button class="chip" data-cat="Seni">
+                    Seni & Budaya
+                </button>
+
+                <button class="chip" data-cat="Olahraga">
+                    Olahraga
+                </button>
+
+                <button class="chip" data-cat="Sosial">
+                    Sosial
+                </button>
+
+                <button class="chip" data-cat="Organisasi Mahasiswa">
+                    Organisasi Mahasiswa
+                </button>
+
+            </div>
+
+
+            <div class="grid" id="orggrid">
+
+                <article
+                    class="card org"
+                    data-cat="Teknologi"
+                    data-name="UKM Protic programming teknologi"
+                >
+                    <div class="icon">⌘</div>
+
+                    <small class="kicker">
+                        TEKNOLOGI · UKM
+                    </small>
+
+                    <h3>UKM Protic</h3>
+
+                    <p>
+                        Komunitas minat teknologi informasi,
+                        pemrograman, dan pengembangan digital.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=protic">
+                        Lihat profil →
+                    </a>
+                </article>
+
+
+                <article
+                    class="card org"
+                    data-cat="Organisasi Mahasiswa"
+                    data-name="Badan Eksekutif Mahasiswa BEM"
+                >
+                    <div class="icon">✦</div>
+
+                    <small class="kicker">
+                        ORGANISASI MAHASISWA
+                    </small>
+
+                    <h3>Badan Eksekutif Mahasiswa</h3>
+
+                    <p>
+                        Wadah aspirasi, koordinasi kegiatan,
+                        dan pengembangan kepemimpinan mahasiswa.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=bem">
+                        Lihat profil →
+                    </a>
+                </article>
+
+
+                <article
+                    class="card org"
+                    data-cat="Seni"
+                    data-name="UKM Musik seni budaya"
+                >
+                    <div class="icon">♫</div>
+
+                    <small class="kicker">
+                        SENI & BUDAYA · UKM
+                    </small>
+
+                    <h3>UKM Musik</h3>
+
+                    <p>
+                        Tempat mengembangkan kemampuan bermusik,
+                        tampil, dan berkolaborasi.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=musik">
+                        Lihat profil →
+                    </a>
+                </article>
+
+
+                <article
+                    class="card org"
+                    data-cat="Olahraga"
+                    data-name="UKM Olahraga basket futsal"
+                >
+                    <div class="icon">◉</div>
+
+                    <small class="kicker">
+                        OLAHRAGA · UKM
+                    </small>
+
+                    <h3>UKM Olahraga</h3>
+
+                    <p>
+                        Aktivitas olahraga, latihan bersama,
+                        dan kompetisi.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=olahraga">
+                        Lihat profil →
+                    </a>
+                </article>
+
+
+                <article
+                    class="card org"
+                    data-cat="Sosial"
+                    data-name="UKM Relawan sosial"
+                >
+                    <div class="icon">♡</div>
+
+                    <small class="kicker">
+                        SOSIAL · UKM
+                    </small>
+
+                    <h3>UKM Relawan</h3>
+
+                    <p>
+                        Komunitas kepedulian sosial dan
+                        pengabdian masyarakat.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=relawan">
+                        Lihat profil →
+                    </a>
+                </article>
+
+
+                <article
+                    class="card org"
+                    data-cat="Seni"
+                    data-name="UKM Tari seni budaya"
+                >
+                    <div class="icon">✳</div>
+
+                    <small class="kicker">
+                        SENI & BUDAYA · UKM
+                    </small>
+
+                    <h3>UKM Tari</h3>
+
+                    <p>
+                        Komunitas untuk mempelajari dan
+                        menampilkan seni tari.
+                    </p>
+
+                    <a class="btn" href="detail.html?org=tari">
+                        Lihat profil →
+                    </a>
+                </article>
+
+            </div>
+
+
+            <div class="empty hidden" id="empty">
+                Organisasi tidak ditemukan. Coba kata kunci lain.
+            </div>
+
+            <p class="note">
+                Daftar ini merupakan contoh. Ganti dengan organisasi
+                dan UKM yang benar-benar ada di kampus kalian.
+            </p>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            © 2026 RuangKampus
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
